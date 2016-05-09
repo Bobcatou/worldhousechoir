@@ -1,7 +1,7 @@
 /* # Genesis Sample Child Theme
-Theme Name: Genesis Sample Theme
+Theme Name: World House Choir
 Theme URI: http://my.studiopress.com/themes/genesis/
-Description: This is the sample theme created for the Genesis Framework.
+Description: This is the sample theme created for the Genesis Framework. (Modified by Sridhar then designed by Listen to the Wind Media
 Author: StudioPress
 Author URI: http://www.studiopress.com/
 Template: genesis
@@ -1463,6 +1463,15 @@ li.comment {
 .entry-content .soliloquy-controls-direction a, .entry-content a.soliloquy-pager-link {
 	border-bottom: none;
 }
+
+
+/* Listen to the Wind Media Designs May 9, 2016  11:13 AM */
+
+h1.site-title img {
+    width: 150px;
+}
+
+
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
