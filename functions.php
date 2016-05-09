@@ -105,3 +105,13 @@ function be_remove_genesis_page_templates( $page_templates ) {
 	return $page_templates;
 }
 add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
+
+
+// Listen to the Wind Media changes May 9, 2016  10:52 AM
+
+//* Reposition the primary navigation menu
+remove_action( 'genesis_after_header', 'genesis_do_nav' );
+add_action( 'genesis_before', 'genesis_do_nav', 12 );
+
+
+
