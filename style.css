@@ -995,8 +995,8 @@ img.alignright,
 }*/
 
 .site-description {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 26px;
+	font-size: 2.6rem;
 	font-weight: 300;
 	line-height: 1.5;
 }
@@ -1153,11 +1153,12 @@ img.alignright,
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #333;
+	background-color: #a78659;
+	border-bottom: #535353 dotted 1px;
 }
 
 .nav-primary .genesis-nav-menu a {
-	color: #ccc;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -1477,9 +1478,8 @@ h1.site-title {
 }
 
 p.site-description {
-    padding: 100px 0 0 600px;
+    padding: 57px 0 0 277px;
 }
-
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
