@@ -1383,8 +1383,8 @@ li.comment {
 
 .sidebar .widget {
 	background-color: #fff;
-	margin-bottom: 40px;
-	padding: 40px;
+	margin-bottom: 25px;
+	padding: 20px 10px 0 10px;
 }
 
 /* # Footer Widgets
@@ -1488,6 +1488,12 @@ header.site-header {
     border-left: 1px solid #515151;
     border-right: 1px solid #515151;
 }
+
+
+widget widget_sp_image {
+	
+}
+
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
