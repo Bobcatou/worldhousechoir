@@ -1469,15 +1469,12 @@ li.comment {
 
 /* Listen to the Wind Media Designs May 9, 2016  11:13 AM */
 
-h1.site-title img {
-    width: 150px;
-}
 
-h1.site-title {
+.site-title {
     float: left;
 }
 
-p.site-description {
+.site-description {
     padding: 57px 0 0 277px;
 }
 
