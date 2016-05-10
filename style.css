@@ -1482,6 +1482,13 @@ header.site-header {
     border-bottom: 1px solid #515151;
     padding-bottom: 5px;
 }
+
+.content .entry {
+    background-color: #fff;
+    border-left: 1px solid #515151;
+    border-right: 1px solid #515151;
+}
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
