@@ -1478,6 +1478,10 @@ li.comment {
     padding: 57px 0 0 277px;
 }
 
+header.site-header {
+    border-bottom: 1px solid #515151;
+    padding-bottom: 5px;
+}
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
