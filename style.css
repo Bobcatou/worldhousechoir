@@ -1383,10 +1383,10 @@ li.comment {
 
 .sidebar .widget {
 	background-color: #fff;
-/*	margin-bottom: 25px; */
-/*	padding: 20px 10px 0 10px; */
-	margin-bottom: 40px;
-	padding: 40px;
+	margin-bottom: 25px; 
+	padding: 20px 10px 0 10px; 
+/*	margin-bottom: 40px;  */
+/*	padding: 40px; */
 
 }
 
@@ -1470,7 +1470,6 @@ li.comment {
 	border-bottom: none;
 }
 
-
 /* Listen to the Wind Media Designs May 9, 2016  11:13 AM */
 
 
@@ -1493,9 +1492,10 @@ header.site-header {
     border-right: 1px solid #515151;
 }
 
+/* Got rid of header on the homepage*/
 
-widget widget_sp_image {
-	
+.post-15 h1.entry-title {
+	display: none;
 }
 
 
