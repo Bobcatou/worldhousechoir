@@ -1417,6 +1417,7 @@ li.comment {
 	line-height: 1;
 	padding: 40px 0;
 	text-align: center;
+	border-top: 1px solid #515151;
 }
 
 .site-footer p {
