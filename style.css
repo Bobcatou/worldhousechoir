@@ -1474,11 +1474,17 @@ li.comment {
 
 
 .site-title {
-    float: left;
+/*    float: left; */
+	display: inline-block;
+	vertical-align: top;
 }
 
 .site-description {
-    padding: 57px 0 0 277px;
+/*    padding: 57px 0 0 277px; */
+	display: inline-block;
+	width: 85%;
+    padding-left: 120px;
+    padding-top: 67px;
 }
 
 header.site-header {
@@ -1498,6 +1504,31 @@ header.site-header {
 	display: none;
 }
 
+
+#black-studio-tinymce-3 h3,
+h3.our-blog {
+	font-size: 30px;
+	font-size: 3rem;
+}
+
+
+#black-studio-tinymce-2 {
+	background: #eadba4;
+	padding-bottom: 10px;
+}
+
+.news-story img {
+	float: left;
+	margin-right: 10px;
+}
+
+.news-story {
+	overflow: hidden;
+}
+
+h2.news-story-header {
+	margin: 30px 0 20px;
+}
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
