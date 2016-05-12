@@ -174,13 +174,13 @@ textarea:focus,
 
 a {
 	color: #c3251d;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
 	color: #333;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 p {
