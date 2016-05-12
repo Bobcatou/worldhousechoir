@@ -1507,12 +1507,20 @@ header.site-header {
 }
 
 
-#black-studio-tinymce-3 h3,
-h3.our-blog {
+#black-studio-tinymce-3 h3 {
 	font-size: 30px;
 	font-size: 3rem;
 }
 
+h3.our-blog {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.other-blog-items {	
+	font-size: 18px;
+	font-size: 1.8rem;
+}
 
 #black-studio-tinymce-2 {
 	background: #eadba4;
