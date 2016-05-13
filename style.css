@@ -1479,14 +1479,15 @@ li.comment {
 /*    float: left; */
 	display: inline-block;
 	vertical-align: top;
+	padding-left: 43px;
 }
 
 .site-description {
 /*    padding: 57px 0 0 277px; */
 	display: inline-block;
 	width: 85%;
-    padding-left: 120px;
-    padding-top: 67px;
+    padding-left: 104px;
+    padding-top: 27px;
 }
 
 header.site-header {
