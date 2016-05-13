@@ -1373,9 +1373,11 @@ li.comment {
 }
 
 .sidebar li {
-	border-bottom: 1px dotted #ddd;
+/*	border-bottom: 1px dotted #ddd; */
 	margin-bottom: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
+	margin-left: 10px;
+	list-style: disc;
 }
 
 .sidebar p:last-child,
@@ -1385,7 +1387,7 @@ li.comment {
 
 .sidebar .widget {
 	background-color: #fff;
-	margin-bottom: 25px; 
+	margin-bottom: 15px; 
 	padding: 20px 10px 0 10px; 
 /*	margin-bottom: 40px;  */
 /*	padding: 40px; */
@@ -1521,7 +1523,13 @@ h3.our-blog {
 .other-blog-items {	
 	font-size: 18px;
 	font-size: 1.8rem;
+	margin-bottom: 0;
 }
+
+#wp_views-3 {
+    padding-top: 0;
+}
+
 
 #black-studio-tinymce-2 {
 	background: #eadba4;
