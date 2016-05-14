@@ -1555,6 +1555,13 @@ h2.news-story-header {
 	text-align: center;
 }
 
+/* Facebook Widget */
+section#black-studio-tinymce-4 {
+	border: 1px solid #515151;
+	padding: 20px;
+}
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
