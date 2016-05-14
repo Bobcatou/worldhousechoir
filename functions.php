@@ -113,5 +113,14 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_before', 'genesis_do_nav', 12 );
 
+//* Customize footer credits
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+function sp_footer_creds_text() {
+   echo '<div class="lwm_credits"><p>';
+    echo 'Copyright &copy; ';
+    echo date('Y');
+    echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
+    echo '</p></div>';
+}
 
 
