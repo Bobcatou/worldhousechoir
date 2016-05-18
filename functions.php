@@ -123,4 +123,3 @@ function sp_footer_creds_text() {
     echo '</p></div>';
 }
 
-
