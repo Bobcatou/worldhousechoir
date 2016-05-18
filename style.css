@@ -1071,7 +1071,7 @@ img.alignright,
 }
 
 .genesis-nav-menu .sub-menu a {
-	background-color: #fff;
+	background-color: #738abe;
 	border: 1px solid #eee;
 	border-top: 0;
 	font-size: 14px;
@@ -1509,7 +1509,9 @@ header.site-header {
 	display: none;
 }
 
-
+article.post-15.page.type-page.status-publish.entry {
+    padding-top: 20px;
+}
 #black-studio-tinymce-3 h3 {
 	font-size: 30px;
 	font-size: 3rem;
