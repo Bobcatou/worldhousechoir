@@ -244,7 +244,7 @@ h5,
 h6 {
 	color: #333;
 	font-family: Lato, sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -1155,7 +1155,7 @@ img.alignright,
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #a78659;
+	background-color: #738abe;
 	border-bottom: #535353 dotted 1px;
 }
 
@@ -1561,6 +1561,33 @@ section#black-studio-tinymce-4 {
 	border: 1px solid #515151;
 	padding: 20px;
 }
+
+
+/* Font Styles */
+
+.site-description, .genesis-nav-menu a {
+	font-family: 'acme';
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #333;
+	font-family: 'Acme', sans-serif;
+	font-weight: 400;
+}
+
+body {
+	font-family: 'Actor', sans-serif;
+	font-weight: 400;
+}
+
+
+
 
 
 /* # Media Queries
