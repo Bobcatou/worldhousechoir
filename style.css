@@ -1018,9 +1018,10 @@ img.alignright,
 --------------------------------------------- */
 
 .site-header .widget-area {
-	float: right;
-	text-align: right;
-	/*width: 800px;*/
+	/*float: right;*/
+	float: left;
+	text-align: center;
+	width: 957px;
 }
 
 
@@ -1481,15 +1482,15 @@ li.comment {
 /*    float: left; */
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 43px;
+/*	padding-left: 43px;*/
 }
 
 .site-description {
 /*    padding: 57px 0 0 277px; */
-	display: inline-block;
+/*	display: inline-block;*/
 /*	width: 36%; */
-    padding-left: 104px;
-    padding-top: 27px;
+/*    padding-left: 104px;*/
+    padding-top: 6px;
 }
 
 header.site-header {
@@ -1498,13 +1499,14 @@ header.site-header {
 }
 /* This is the site and slider widget */
 section#black-studio-tinymce-5 {
-    width: 800px;
+    /*width: 800px;*/
 }
 
 /* Slider in Header */
 
 #soliloquy-container-20 {
-    padding-top: 69px;
+    padding-top: 17px;
+    padding-left: 15px;
 }
 
 .home .content .entry {
