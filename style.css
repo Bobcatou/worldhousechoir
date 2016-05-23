@@ -998,7 +998,7 @@ img.alignright,
 
 .site-description {
 	font-size: 26px;
-	font-size: 2.6rem;
+	font-size: 2rem;
 	font-weight: 300;
 	line-height: 1.5;
 }
@@ -1487,7 +1487,7 @@ li.comment {
 .site-description {
 /*    padding: 57px 0 0 277px; */
 	display: inline-block;
-	width: 36%;
+/*	width: 36%; */
     padding-left: 104px;
     padding-top: 27px;
 }
@@ -1495,6 +1495,16 @@ li.comment {
 header.site-header {
     border-bottom: 1px solid #515151;
     padding-bottom: 5px;
+}
+/* This is the site and slider widget */
+section#black-studio-tinymce-5 {
+    width: 800px;
+}
+
+/* Slider in Header */
+
+#soliloquy-container-20 {
+    padding-top: 69px;
 }
 
 .home .content .entry {
@@ -1512,7 +1522,7 @@ header.site-header {
 article.post-15.page.type-page.status-publish.entry {
     padding-top: 20px;
 }
-#black-studio-tinymce-3 h3 {
+#black-studio-tinymce-3 h3, #wp_views-2 h3 {
 	font-size: 30px;
 	font-size: 3rem;
 }
