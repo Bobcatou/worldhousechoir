@@ -1575,6 +1575,15 @@ section#black-studio-tinymce-4 {
 }
 
 
+/* Mission Statement under header */
+.mission-statement-block {
+	border-bottom: 1px solid #515151;
+
+}
+
+.mission-area {
+    text-align: center;
+}
 /* Font Styles */
 
 .site-description, .genesis-nav-menu a {
