@@ -68,7 +68,7 @@ function custom_header_inline_logo( $title, $inside, $wrap ) {
 }
 
 // Remove the site description
-//remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 // Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
@@ -123,4 +123,17 @@ function sp_footer_creds_text() {
     echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
     echo '</p></div>';
 }
+
+
+//* Adds Site Description tag line under header
+add_action( 'genesis_after_header', 'whc_mission', 5 );
+	function whc_mission() {
+	echo '<div class="mission-statement-block">';
+	echo '<div class="wrap mission-area">';
+	echo '<h2>Our Mission</h2>
+<p>To perform music that motivates and inspires our communities toward justice, diversity, and equality as we strive for peace and to create our web of mutuality.</p>';
+	echo '</div>';
+	echo '</div>';
+}
+
 
