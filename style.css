@@ -1593,8 +1593,14 @@ section#black-studio-tinymce-4 {
     line-height: 2.3rem;
 }
 
+/* Mission Statement in footer */
 
-
+.lwm_credits p {
+    border-top: 1px solid #515151;
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
 
 
 /* History Page styling */
@@ -1603,7 +1609,14 @@ section#black-studio-tinymce-4 {
 	text-align: center;
 }
 
+.history.entry {
+	padding-top: 15px;
+}
 
+.history img.alignleft {
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
 
 /* Font Styles */
 
