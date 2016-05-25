@@ -1577,17 +1577,39 @@ section#black-studio-tinymce-4 {
 
 /* Mission Statement under header */
 .mission-statement-block {
-	border-bottom: 1px solid #515151;
+	/*border-bottom: 1px solid #515151;*/
 
 }
 
 .mission-area {
     text-align: center;
+   	padding-bottom: 20px;
+
 }
+
+.wrap.mission-area p {
+    font-family: Acme;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+
+
+
+
+/* History Page styling */
+
+.history h1 {
+	text-align: center;
+}
+
+
+
 /* Font Styles */
 
 .site-description, .genesis-nav-menu a {
 	font-family: 'acme';
+	font-size: 1.9rem;
 }
 
 
