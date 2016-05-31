@@ -1487,10 +1487,11 @@ li.comment {
 
 .site-description {
 /*    padding: 57px 0 0 277px; */
-/*	display: inline-block;*/
-/*	width: 36%; */
-/*    padding-left: 104px;*/
-    padding-top: 6px;
+/* 	display: inline-block; */
+/* 	width: 36%;  */
+/*     padding-left: 104px; */
+/*     padding-top: 6px; */
+	margin-top:5px;
 }
 
 header.site-header {
@@ -1618,6 +1619,15 @@ section#black-studio-tinymce-4 {
 	padding-top: 10px;
 }
 
+
+/* Rehearsal Sound Clips Page styling */
+.rehearsal-clips-singles {
+    background: #eadba4;
+    padding: 10px;
+    border: 1px #515151 dotted;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
 /* Font Styles */
 
 .site-description, .genesis-nav-menu a {
