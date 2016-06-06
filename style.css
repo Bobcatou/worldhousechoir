@@ -1491,7 +1491,7 @@ li.comment {
 /* 	width: 36%;  */
 /*     padding-left: 104px; */
 /*     padding-top: 6px; */
-	margin-top:5px;
+	margin-top:27px;
 }
 
 header.site-header {
@@ -1597,10 +1597,10 @@ section#black-studio-tinymce-4 {
 /* Mission Statement in footer */
 
 .lwm_credits p {
-    border-top: 1px solid #515151;
-    width: 33%;
+/*    border-top: 1px solid #515151; */
+/*    width: 33%;*/
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 
@@ -1623,11 +1623,18 @@ section#black-studio-tinymce-4 {
 /* Rehearsal Sound Clips Page styling */
 .rehearsal-clips-singles {
     background: #eadba4;
-    padding: 10px;
+    padding: 0 10px;
     border: 1px #515151 dotted;
     border-radius: 5px;
     margin-bottom: 30px;
+    min-height: 70px;
 }
+
+.rehearsal-clips-singles h3 {
+	font-size: 2.2rem;
+	margin-top: 15px;
+}
+
 /* Font Styles */
 
 .site-description, .genesis-nav-menu a {
