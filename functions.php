@@ -115,36 +115,36 @@ remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_before', 'genesis_do_nav', 12 );
 
 //* Customize footer credits
-//add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
-//function sp_footer_creds_text() {
- //  echo '<div class="lwm_credits"><p>';
-//    echo 'Copyright &copy; ';
-//    echo date('Y');
- //   echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
-//    echo '</p></div>';
-//}
-
-
-//* Customize footer credits
 add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
 function sp_footer_creds_text() {
-   echo '<div class="lwm_credits"><p>';
-    echo 'Copyright &copy; ';
-    echo date('Y');
-    echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a>';
-    echo '</p></div>';
+     echo '<div class="lwm_credits"><p>';
+     echo 'Copyright &copy; ';
+     echo date('Y');
+     echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
+     echo '</p></div>';
 }
+
+
+//* Customize footer credits NO LWM
+//add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+//function sp_footer_creds_text() {
+   //echo '<div class="lwm_credits"><p>';
+  //  echo 'Copyright &copy; ';
+    //echo date('Y');
+   // echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a>';
+   // echo '</p></div>';
+//}
 
 
 
 
 //* Adds Site Description tag line under footer
-add_action( 'genesis_footer', 'whc_mission', 5 );
-	function whc_mission() {
-	echo '<div class="mission-statement-block">';
-	echo '<div class="wrap mission-area">';
-echo '<p>The mission of World House Choir is "to perform music that motivates and inspires our communities toward justice, diversity, and equality as we strive for peace and to create our web of mutuality."</p>';
-	echo '</div>';
-}
+//add_action( 'genesis_footer', 'whc_mission', 5 );
+//	function whc_mission() {
+//	echo '<div class="mission-statement-block">';
+//	echo '<div class="wrap mission-area">';
+//echo '<p>The mission of World House Choir is "to perform music that motivates and inspires our communities toward justice, diversity, and equality as we strive for peace and to create our web of mutuality."</p>';
+//	echo '</div>';
+//}
 
 
