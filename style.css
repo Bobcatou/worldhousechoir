@@ -1569,6 +1569,14 @@ h2.news-story-header {
 	text-align: center;
 }
 
+
+/* Sidebar Styling */
+aside#genesis-sidebar-primary h3.widgettitle.widget-title {
+	font-size: 2.4rem;
+}
+
+
+
 /* Facebook Widget */
 section#black-studio-tinymce-4 {
 	border: 1px solid #515151;
