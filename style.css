@@ -570,7 +570,8 @@ th {
 
 .sidebar-primary {
 	float: right;
-	width: 360px;
+	width: 400px;
+	padding-left: 40px;
 }
 
 .sidebar-content .sidebar-primary,
