@@ -179,7 +179,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #333;
+	color: #738abe;
 	text-decoration: underline;
 }
 
@@ -1477,6 +1477,22 @@ li.comment {
 
 /* Listen to the Wind Media Designs May 9, 2016  11:13 AM */
 
+/* Border on the front page */
+.home main#genesis-content {
+    border-left: 1px solid #515151;
+    border-right: 1px solid #515151;
+}
+
+/*#content-sidebar-wrap, main#genesis-content {
+	border-right: 1px solid #515151;
+*/
+
+aside#genesis-sidebar-primary {
+/*	   border-left: 1px solid #515151; */
+
+}
+
+
 
 .site-title {
 /*    float: left; */
@@ -1510,12 +1526,12 @@ section#black-studio-tinymce-5 {
     padding-left: 15px;
 }
 
-.home .content .entry {
+/*.home .content .entry {
     background-color: #fff;
     border-left: 1px solid #515151;
     border-right: 1px solid #515151;
 }
-
+*/
 /* Got rid of header on the homepage*/
 
 .post-15 h1.entry-title {
@@ -1597,7 +1613,7 @@ section#black-studio-tinymce-4 {
 }
 
 .wrap.mission-area p {
-    font-family: Acme;
+    font-family: Oswald;
     font-size: 2rem;
     line-height: 2.3rem;
 }
@@ -1646,7 +1662,7 @@ section#black-studio-tinymce-4 {
 /* Font Styles */
 
 .site-description, .genesis-nav-menu a {
-	font-family: 'acme';
+	font-family: 'Oswald';
 	font-size: 1.9rem;
 }
 
@@ -1658,17 +1674,21 @@ h4,
 h5,
 h6 {
 	color: #333;
-	font-family: 'Acme', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 }
 
 body {
-	font-family: 'Actor', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 
+/* WooCommerce Styling */
 
-
+/* Sidebar widget caption */
+section#widget_sp_image-5 p {
+    text-align: center;
+}
 
 
 /* # Media Queries
@@ -2064,4 +2084,7 @@ body {
 	}
 
 }
+
+
+
 
