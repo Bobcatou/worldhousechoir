@@ -1480,7 +1480,7 @@ li.comment {
 /* Border on the front page */
 .home main#genesis-content {
     border-left: 1px solid #515151;
-    border-right: 1px solid #515151;
+/*    border-right: 1px solid #515151; */
 }
 
 /*#content-sidebar-wrap, main#genesis-content {
@@ -1488,7 +1488,7 @@ li.comment {
 */
 
 aside#genesis-sidebar-primary {
-/*	   border-left: 1px solid #515151; */
+	   border-left: 1px solid #515151; 
 
 }
 
