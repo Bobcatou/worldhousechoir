@@ -11,7 +11,7 @@ define( 'CHILD_THEME_VERSION', '2.2.0' );
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Actor:400|Acme:400', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Oswald', array(), CHILD_THEME_VERSION );
 
 }
 
@@ -31,6 +31,11 @@ add_theme_support( 'custom-background' );
 
 // Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
+
+// Add support for Woocommerce
+add_theme_support( 'genesis-connect-woocommerce' );
+
+
 
 /**********************************
  *
@@ -123,6 +128,14 @@ function sp_footer_creds_text() {
      echo ' &middot; <a href="http://worldhousechoir.org">World House Choir</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
      echo '</p></div>';
 }
+
+//*Disables Woo Comments
+add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+function wcs_woo_remove_reviews_tab($tabs) {
+ unset($tabs['reviews']);
+ return $tabs;
+}
+
 
 
 //* Customize footer credits NO LWM
