@@ -1542,11 +1542,14 @@ section#black-studio-tinymce-5 {
 article.post-15.page.type-page.status-publish.entry {
     padding-top: 20px;
 }
-#black-studio-tinymce-3 h3, #wp_views-2 h3 {
+#wp_views-2 h3 {
 	font-size: 24px;
 	font-size: 2.4rem;
 }
-
+#black-studio-tinymce-3 h3 {
+	font-size: 30px;
+	font-size: 3rem;
+}
 h3.our-blog {
 	font-size: 24px;
 	font-size: 2.4rem;
@@ -1574,10 +1577,13 @@ h3.our-blog {
 }
 
 .news-story img {
-	float: left;
-	margin-right: 10px;
+	display:block;
+	margin: 20px auto;
 }
 
+.news-story h3 {
+	text-align: center;
+}
 .news-story {
 	overflow: hidden;
 }
@@ -1589,7 +1595,7 @@ h2.news-story-header {
 
 /* Sidebar Styling */
 aside#genesis-sidebar-primary h3.widgettitle.widget-title {
-	font-size: 2.4rem;
+	font-size: 3rem;
 }
 
 
@@ -1691,6 +1697,15 @@ section#widget_sp_image-5 p {
     text-align: center;
 }
 
+/* Donation form widget styling */
+/* Email */
+li#field_2_18 {
+    width: 100%;
+}
+
+.woocommerce ul.product_list_widget li img  {
+	width: 50% !important;	
+}
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
