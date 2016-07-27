@@ -1703,8 +1703,13 @@ li#field_2_18 {
     width: 100%;
 }
 
+/* Home Page sidebar featured product stying */
 .woocommerce ul.product_list_widget li img  {
 	width: 50% !important;	
+}
+/* Shop page styling */
+.whc-shop main#genesis-content {
+    padding: 20px 20px 0 0;
 }
 
 /* # Media Queries
