@@ -137,6 +137,15 @@ function wcs_woo_remove_reviews_tab($tabs) {
 }
 
 
+//* Add custom body class to the head
+add_filter( 'body_class', 'whc_shop_add_body_class' );
+function whc_shop_add_body_class( $classes ) {
+  if (is_shop()) {
+    $classes[] = 'whc-shop';
+  }
+    return $classes;
+}
+
 
 //* Customize footer credits NO LWM
 //add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
