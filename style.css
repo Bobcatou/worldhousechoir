@@ -400,16 +400,17 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: #333;
+	background-color: #738abe;
 	border: 0;
 	color: #fff;
 	cursor: pointer;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: 300;
-	padding: 16px 24px;
+	font-weight: 400;
+	padding: 10px 20px;
 	text-transform: uppercase;
 	width: auto;
+	border-radius: 5px;
 }
 
 button:hover,
@@ -1546,7 +1547,7 @@ article.post-15.page.type-page.status-publish.entry {
 	font-size: 24px;
 	font-size: 2.4rem;
 }
-#black-studio-tinymce-3 h3 {
+#black-studio-tinymce-3 h3, section#text-3 h3 {
 	font-size: 30px;
 	font-size: 3rem;
 }
@@ -1713,7 +1714,17 @@ li#field_2_18 {
 }
 
 /* Donate Sidebar Button */
+a.button.donate {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 
+a.button:hover {
+	text-decoration: none;
+}
 
 
 /* # Media Queries
