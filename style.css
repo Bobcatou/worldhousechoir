@@ -1077,12 +1077,13 @@ img.alignright,
 	background-color: #738abe;
 	border: 1px solid #eee;
 	border-top: 0;
-	font-size: 14px;
-	font-size: 1.4rem;
+	font-size: 19px;
+	font-size: 1.9rem;
 	padding: 20px;
 	position: relative;
 	width: 200px;
 	word-wrap: break-word;
+	line-height: 24px;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1125,6 +1126,8 @@ img.alignright,
 .genesis-nav-menu > .search {
 	padding: 10px 0 0;
 }
+
+
 
 /* ## Accessible Menu
 --------------------------------------------- */
