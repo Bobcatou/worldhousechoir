@@ -1715,6 +1715,11 @@ li#field_2_18 {
 .whc-shop main#genesis-content {
     padding: 20px 20px 0 0;
 }
+/* Frontpage widget */
+.woocommerce ul.product_list_widget li a {
+	font-size: 20px;
+	line-height: 26px;
+}
 
 /* Donate Sidebar Button */
 a.button.donate {
