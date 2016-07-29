@@ -1184,7 +1184,7 @@ img.alignright,
 .nav-primary .genesis-nav-menu .sub-menu a:hover,
 .nav-primary .genesis-nav-menu .sub-menu a:focus,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a {
-	color: #c3251d;
+	color: #fff;
 	text-decoration: underline;
 }
 
