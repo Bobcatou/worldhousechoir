@@ -1546,10 +1546,6 @@ section#black-studio-tinymce-5 {
 article.post-15.page.type-page.status-publish.entry {
     padding-top: 20px;
 }
-#wp_views-2 h3 {
-	font-size: 24px;
-	font-size: 2.4rem;
-}
 #black-studio-tinymce-3 h3, section#text-3 h3 {
 	font-size: 30px;
 	font-size: 3rem;
@@ -1734,6 +1730,31 @@ a.button:hover {
 	text-decoration: none;
 }
 
+/* Donate Primary Sidebar Widget */
+section#text-4 {
+    margin: 20px auto;
+    width: 238px;
+    border: 1px solid #000;
+}
+
+/*Styling for Next/Previous*/
+
+.wpv-filter-next-link {
+    float: right;
+}
+
+/*End Views Pagination styling*/
+
+/* Director's Blog widget */
+.our-blog-block h3.dblog-subtitle {
+	font-size: 26px;
+	font-size: 2.6rem;
+	margin-bottom: 15px;
+}
+/* Director's Blog widget */
+.our-blog-block h2 {
+	margin-bottom: 3px;
+}
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
