@@ -1718,8 +1718,8 @@ li#field_2_18 {
 }
 
 /* Donate Sidebar Button */
-a.button.donate {
-    font-size: 2rem;
+a.button.donate{
+    font-size: 2rem ;
     font-weight: 600;
     line-height: 23px;
     text-align: center;
@@ -1754,6 +1754,16 @@ section#text-4 {
 /* Director's Blog widget */
 .our-blog-block h2 {
 	margin-bottom: 3px;
+}
+
+/* Facebook Buttom */
+
+.whc-fb a {
+	background: #738abe;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
 }
 
 /* # Media Queries
