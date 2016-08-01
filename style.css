@@ -1766,6 +1766,14 @@ section#text-4 {
     font-weight: 600;
 }
 
+/* Fixing equal heights bug where border-bottom wasn't showing. */
+
+main#genesis-content {
+    overflow: hidden;
+}
+
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
