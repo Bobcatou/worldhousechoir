@@ -1773,14 +1773,16 @@ section#text-4 {
 
 /* Fixing equal heights bug where border-bottom wasn't showing. */
 
+.whc-donatepage main#genesis-content {
+	min-height: 1800px;
+}
 main#genesis-content {
     overflow: hidden;
-}
-
+/*
 .whc-donatepage {
 	display: block;
 }
-
+*/
 .woocommerce a.button	{
 	background-color: #738abe !important;
 	font-size: 2rem !important;
