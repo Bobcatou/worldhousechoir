@@ -1777,6 +1777,31 @@ main#genesis-content {
     overflow: hidden;
 }
 
+.whc-donatepage {
+	display: block;
+}
+
+.woocommerce a.button	{
+	background-color: #738abe !important;
+	font-size: 2rem !important;
+    font-weight: 600 !important;
+    line-height: 23px !important;
+    text-align: center !important;
+    margin-bottom: 5px !important;
+    width: 120px !important;
+}
+
+/* Sponsorship styling */
+
+aside#genesis-sidebar-secondary img {
+    margin: 0;
+    border-bottom: 1px solid #515151;
+    padding-bottom: 15px;
+}
+
+section#text-3 img {
+    border-bottom: 0;
+}
 
 
 /* # Media Queries
